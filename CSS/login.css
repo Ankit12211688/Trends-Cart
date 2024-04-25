@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+body {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: url("/Image/photo-frame-shopping-trolleys-packets-labels.jpg");
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1cm;
+
+}
+
+
+.input {
+    border-radius: 5px;
+    height: 0.5cm;
+    padding: 8px;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-color: blue;
+    font-family: 'Chakra Petch';
+    outline: 0;
+    color: blue;
+}
+
+#login {
+    height: 1cm;
+    background-color: aqua;
+    margin-top: 0.80cm;
+    border-radius: 5px;
+    font-family: 'Black Ops One';
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline;
+    color: grey;
+
+}
+
+#login:hover {
+    background-color: blue;
+}
+
+.user {
+    font-family: 'Chakra Petch';
+    font-size: 24px;
+    color: white;
+}
+
+.user::after {
+    content: "*";
+    color: red;
+}
+
+#pass {
+    margin-top: 4px;
+}
+
+.sign {
+    color: white;
+    font-family: 'Lemon';
+}
+
+.signup {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lemon';
+}
+
+.signup:hover {
+    color: blue;
+}
+
+#forgot {
+    font-family: 'Black Ops One';
+    height: 1cm;
+    background-color: white;
+    margin-top: 0.80cm;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline;
+    width: 8cm;
+
+}
+
+#forgot:hover {
+    background-color: blue;
+}
+
+.overall {
+    display: flex;
+    margin-top: 3.5cm;
+    /* backdrop-filter: blur(10px); */
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.Google {
+    font-family: 'Black Ops One';
+    height: 1cm;
+    background-color: white;
+    margin-top: 0.80cm;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline;
+    width: 8cm;
+}
+
+.social {
+    margin-left: 32px;
+}
+
+.media {
+    font-family: 'Lemon';
+    color: white;
+}
+
+.Google:hover {
+    background-color: blue;
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Workbench&display=swap');
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 1cm;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    padding-left: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 68%;
+}
+
+label {
+    color: white;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.btn {
+    margin-top: 1cm;
+}
+
+button {
+    height: 1cm;
+    width: 5cm;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+#sub {
+    background-color: #4237a1;
+}
+
+#sub:hover {
+    background-color: blue;
+}
+
+.sign {
+    position: absolute;
+    top: 1cm;
+    left: 10cm;
+    background-color: black;
+    padding: 1cm;
+    padding-left: 3cm;
+    border-radius: 5px;
+    width: 14cm;
+    overflow: auto;
+}
+
+#reset {
+    margin-left: 0.3cm;
+}
+
+#signbtn {
+    background-color: red;
+}
+
+.ready {
+    color: white;
+    user-select: none;
+    margin-top: 1cm;
+    font-size: 18px;
+    font-family: 'Play';
+}
+
+.login {
+    user-select: none;
+    color: white;
+}
+
+#signbtn:hover {
+    background-color: blue;
+}
+
+#reset:hover {
+    background-color: blue;
+}
+
+.login:hover {
+    color: #0f0;
+}
+
+.hoveringeffect {
+    display: flex;
+    height: 3cm;
+    width: 3cm;
+    background-color: #1f1d1d;
+    animation: animate 4s linear infinite;
+    transition: 1s;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.effect {
+    display: flex;
+    gap: 7px;
+}
+
+.hoveringeffect:hover {
+    background-color: #0f0;
+    transition: 0s;
+}
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(180deg);
+    }
+}
+
+span {
+    color: red;
+    font-size: 20px;
+}

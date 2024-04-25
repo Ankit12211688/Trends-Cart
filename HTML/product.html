@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgate</title>
+    <link rel="stylesheet" href="/CSS/product.css">
+    <link rel="stylesheet" href="/CSS/SelectionAndScrollBar.css">
+    <link rel="stylesheet" href="/CSS/header.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo"><a href="/HTML/index.html"> <img src="/Image/Logo.png" alt="logo" height="70cm"
+                    width="70cm"></a></div>
+        <div class="ok"><input type="text" class="search" placeholder="Search for products, Brands and More">
+            <div class="navbar">
+                <img src="/Image/log-in.png" alt="" height="24px" width="24px">
+                <div class="nav" id="profile">Log in</div>
+                <img src="/Image/downarrow.png" alt="" height="20cm" width="20cm" id="down">
+            </div>
+        </div>
+    </header>
+    <div class="all">
+        <div class="smallboxofimage">
+            <div class="imgpr"><img src="/Image/c1.jpg" alt="" height="50cm" width="50cm" id="img1"
+                    onmouseover="changeImg1()"></div>
+            <div class="imgpr"><img src="/Image/c2.jpg" alt="" height="50cm" width="50cm" id="img2"
+                    onmouseover="changeImg2()">
+            </div>
+            <div class="imgpr"><img id="img3" src="/Image/c3.jpg" alt="" width="50cm" height="50cm"
+                    onmouseover="changeImg3()">
+            </div>
+            <div class="imgpr"><img id="img4" src="/Image/c4.jpg" alt="" height="50cm" width="50cm"
+                    onmouseover="changeImg4()">
+            </div>
+            <div class="imgpr"><img id="img5" src="/Image/c5.jpg" alt="" height="50cm" width="50cm"
+                    onmouseover="changeImg5()">
+            </div>
+            <div class="imgpr"><img id="img6" src="/Image/c6.webp" alt="" height="50cm" width="50cm"
+                    onmouseover="changeImg6()"></div>
+        </div>
+        <div class="bigboxofimage"><img id="bigbox" src="/Image/c1.jpg" alt="" height="500cm" width="500cm"></div>
+        <div class="slice" id="prices">
+            <div class="name">Colgate Strong India's No.1 Toothpaste(600 g, Pack of 3)</div>
+            <div class="money">&#8377;327.00</div>
+            <div class="deliver">Delivering to <span style="font-weight: bold;">847101</span></div>
+            <hr style="width:12cm">
+            <div class="delivery"><span style="color: green">Free Delivery | </span><span style="font-weight: bold;">By
+                    Monday 2 Apr</span>
+            </div>
+            <div class="qtn">
+                <button id="minus" class="en">-</button>
+                <div id="number">1</div>
+                <button id="plus" class="en">+</button>
+            </div>
+            <div class="main">
+                <div class="cart" id="a">Add to Cart</div>
+                <a href="/HTML/payment.html" class="cart" id="b">
+                    <div>Buy Now</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/Javascript/des.js"></script>
+    <script src="/Javascripe/log.js"></script>
+    <!-- <script>
+        var a = document.querySelector(".navbar");
+        a.addEventListener("click", () => {
+            var b = document.getElementById("down");
+            b.classList.toggle("transform");
+            a.classList.toggle("color");
+        }) -->
+    </script>
+</body>
+
+</html>

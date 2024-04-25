@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background: #ece5e5;
+    background-size: cover;
+}
+
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1cm;
+}
+
+.o {
+    position: absolute;
+    top: 4cm;
+    left: 2cm;
+}
+
+.pos {
+    display: flex;
+    gap: 5cm;
+    z-index: 5;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.branding {
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+}
+
+.bigbox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1cm;
+}
+
+.arrows {
+    position: relative;
+    border: 2px solid black;
+    display: flex;
+    height: 1cm;
+    width: 1cm;
+    top: 6cm;
+    left: 39cm;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #231065;
+}
+
+.same {
+    margin-top: 13px;
+    color: white;
+}
+
+.dash {
+    margin-left: 13px;
+    transition: .2s;
+}
+
+.arrow {
+    margin-left: -6px;
+    transition: .2s;
+}
+
+.arrows:hover .dash {
+    transform: translateX(-5px);
+}
+
+.arrows:hover .arrow {
+    transform: translateX(5px);
+}
+
+.box2 {
+    background-color: #13cfe4;
+    display: flex;
+    gap: 4cm;
+    padding: 65px;
+}
+
+.c {
+    color: black;
+}
+
+.need {
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.link1:hover {
+    color: #231065;
+    box-shadow: #008000 0px 30px 90px;
+}
+
+.drop {
+    position: relative;
+    top: 3cm;
+    left: -5cm;
+}
+
+.line {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 12px;
+    width: 0cm;
+    transition: 1s;
+}
+
+.showdesgro {
+    display: flex;
+    left: -0.4cm;
+    top: 0.8cm;
+    width: 3.5cm;
+    height: 0.2cm;
+    background-color: red;
+    animation: heightin 0.2s linear 1;
+}
+
+@keyframes heightin {
+    0% {
+        width: 0cm;
+    }
+
+    50% {
+        width: 1.7cm;
+    }
+
+    100% {
+        width: 3.5cm;
+    }
+}
+
+.showdesmob {
+    display: flex;
+    left: 6.8cm;
+    top: 0.8cm;
+    width: 3.5cm;
+    height: 0.2cm;
+    background-color: red;
+    animation: heightin 0.2s linear 1;
+}
+
+.showdesfas {
+    display: flex;
+    left: 14cm;
+    top: 0.8cm;
+    width: 3.5cm;
+    height: 0.2cm;
+    background-color: red;
+    animation: heightin 0.2s linear 1;
+}
+
+.showdesele {
+    display: flex;
+    left: 21.9cm;
+    top: 0.8cm;
+    width: 3.5cm;
+    height: 0.2cm;
+    background-color: red;
+    animation: heightin 0.2s linear 1;
+}
+
+.showdesbea {
+    display: flex;
+    left: 31.1cm;
+    top: 0.8cm;
+    width: 3.5cm;
+    height: 0.2cm;
+    background-color: red;
+    animation: heightin 0.2s linear 1;
+}

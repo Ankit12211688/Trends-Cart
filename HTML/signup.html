@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/CSS/signup.css">
+    <link rel="stylesheet" href="/CSS/SelectionAndScrollBar.css">
+</head>
+
+<body>
+    <div class="overall">
+        <div class="effect">
+            <div class="col">
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+            </div>
+            <div class="col">
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+            </div>
+            <div class="col">
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+            </div>
+            <div class="col">
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+            </div>
+            <div class="col">
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+            </div>
+            <div class="col">
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+            </div>
+            <div class="col">
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+            </div>
+            <div class="col">
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+            </div>
+            <div class="col">
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+            </div>
+            <div class="col">
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+            </div>
+            <div class="col">
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+            </div>
+            <div class="col">
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+            </div>
+            <div class="col">
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+                <span class="hoveringeffect"></span>
+            </div>
+        </div>
+        <div class="sign">
+            <form action="/HTML/login.html" method="post" onsubmit="return validate()">
+                <label for="name">Enter Name</label><span id="nameerror"></span>
+                <input type="text" name="name" id="name" required minlength="3" maxlength="25" value="">
+                <label for="phonenumber">Enter Phone Number</label><span id="phoneerror"></span>
+                <input type="text" name="phonenumber" id="phonenumber" value="" minlength="10" maxlength="10" required>
+                <label for="email">Enter email</label>
+                <input type="email" name="email" id="email" value="" required>
+                <label for="password">Enter Password</label><span id="passworderror"></span>
+                <input type="password" name="password" id="password" value="" required minlength="8">
+                <label for="conpass">Confirm Password</label><span id="conpasserror"></span>
+                <input type="password" name="conpass" id="conpass" value="">
+
+                <div class="btn">
+                    <button type="submit" id="sub">Sign Up</button>
+                    <button type="reset" id="res">Reset</button>
+                </div>
+            </form>
+            <div class="ready">Already have an account
+                <a href="/HTML/login.html" class="login">Log in</a>
+            </div>
+        </div>
+    </div>
+    <script src="/Javascript/signup.js"></script>
+</body>
+
+</html>

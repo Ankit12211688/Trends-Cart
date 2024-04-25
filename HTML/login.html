@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/login.css">
+    <link rel="stylesheet" href="/CSS/SelectionAndScrollBar.css">
+    <title>Please login</title>
+</head>
+
+<body>
+    <div class="overall">
+        <div class="log">
+            <div class="sign">
+                <div class="msg">Log to Your account<br> Don't have an account?</div>
+                <div><a href="/HTML/signup.html" class="signup">Sign up for free!</a></div>
+            </div>
+            <div class="mainlog">
+                <form action="/HTML/index.html" method="post">
+                    <label for="username" class="user" id="name">Email id</label>
+                    <input type="email" placeholder="Enter your Email id" class="input" id="email" name="email"
+                        required>
+                    <label for="Password" class="user" id="pass">Password</label>
+                    <input type="password" placeholder="Enter your password" class="input" id="Password" name="Password"
+                        required>
+                    <button class="submit" type="submit" id="login">Log in</button>
+                </form>
+                <button id="forgot" type="submit">Forgot password</button>
+            </div>
+        </div>
+        <div class="social">
+            <div class="media">Log in using social media</div>
+            <div class="btn">
+                <button class="Google">Continue With facebook</button>
+                <button class="Google">Continue With Google</button>
+            </div>
+        </div>
+    </div>
+    <script src="/Javascript/login.js"></script>
+</body>
+
+</html>
